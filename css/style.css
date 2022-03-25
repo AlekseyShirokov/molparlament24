@@ -1,28 +1,28 @@
 .Mycolor
 {
-  background-color: #852634;
+  background-color: #5271ff ;
 }
 .ImgMycolor_first
 {
   background-color: gray;
-  height: 100%;
+  height: 250pt;
 	overflow: hidden;
 }
 .ImgMycolor_first img
 {
 	width: 100%;
-	height: 100%;
+	height: 250pt;
 	object-fit:cover;
-  object-position:top;
+  object-position:center;
 }
 .DivMycolor
 {
-  background-color: #852634;
+  background-color: #5271ff ;
   color:#fff;
 }
 .HMycolor
 {
-  background-color: #852634;
+  background-color: #5271ff ;
   color:#fff;
 }
 .H1Mycolor
@@ -32,55 +32,61 @@
 .card
 {
   background-color: #f3f2f0;
-  color:#852634;
+  color:#5271ff ;
 }
 .card-text
 {
   color:#000;
 }
+.card-img-top
+{
+  height: 250px;
+  object-fit:cover;
+  object-position:top;
+}
 .btn-outline-light
 {
-  background-color: #852634;
+  background-color: #5271ff ;
 }
 h1
 {
-  color: #852634;
+  color: #5271ff ;
 }
 hr
 {
-  color: #852634;
+  color: #5271ff ;
 }
 .page-link
 {
-  background-color: #852634;
+  background-color: #5271ff ;
   color: #fff;
 }
 .page-item.disabled .page-link
 {
-  background-color: #852634;
+  background-color: #5271ff ;
   color: #fff;
 }
 .page-link:hover {
   z-index: 2;
-  color: #852634;
+  color: #5271ff ;
   background-color: #fff;
-  border-color: #852634;
+  border-color: #5271ff ;
 }
 .btn-outline-light:hover {
-  color: #852634;
+  color: #5271ff ;
   background-color: #fff;
-  border-color: #852634;
+  border-color: #5271ff ;
 }
 .carousel-caption
 {
   border-radius: 5px;
-  background-color: #852634;
+  background-color: #5271ff ;
 }
 footer
 {
   width: 100%;
   height: 56px;
-  background-color: #852634;
+  background-color: #5271ff ;
   color: #fff;
   font-size: 20px;
   padding-top: 10px;
@@ -96,7 +102,7 @@ footer
 }
 .MYcard
 {
-    background-color:#852634;
+    background-color:#5271ff ;
     position: relative;
     height: 250px;
     border-radius: 10px;
