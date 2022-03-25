@@ -160,7 +160,13 @@ footer
     border-bottom-left-radius: 10px;
     margin-bottom: 0;
     line-height: 1;
+	overflow: hidden;
 
+}
+.MY_text:hover{
+  height: 300px;
+  border-radius: 10px;
+  transition: 1.5s;
 }
 .My {
   margin-bottom: 0;
