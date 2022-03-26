@@ -175,3 +175,15 @@ footer
 .My {
   margin-bottom: 0;
 }
+.person{
+  height: auto;
+  width: 100%;
+  /* еще больше контроля с max-width */
+  min-width: 200px;
+  border-radius: 10px;
+}
+.icon{
+  height: auto;
+  width: 100%;
+  max-width: 100px;
+}
