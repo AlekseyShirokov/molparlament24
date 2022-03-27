@@ -199,3 +199,19 @@ footer
   width: 200px;
   height: 250px;
 }
+.intiative{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+	object-fit:cover;
+  object-position:top;
+  border: #5271ff solid;
+}
+.intiatives{
+  align-items: center;
+  width: 300px;
+  height: 400px;
+}
+.col.cards{
+  min-width: 300px;
+}
