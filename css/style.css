@@ -188,16 +188,16 @@ footer
   max-width: 70px;
 }
 .project{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
 	object-fit:cover;
   object-position:center;
   border: #5271ff solid;
 }
 .projects{
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
 }
 .intiative{
   width: 300px;
