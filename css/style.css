@@ -187,3 +187,15 @@ footer
   width: 100%;
   max-width: 70px;
 }
+.project{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+	object-fit:cover;
+  object-position:center;
+  border: #5271ff solid;
+}
+.projects{
+  width: 200px;
+  height: 250px;
+}
