@@ -220,4 +220,14 @@ footer
   width: 300px;
   height: 300px;
 }
-
+.MYbtn{
+  background-color: #5271ff;
+  color: #fff;
+}
+.MYbtn:hover{
+  border: 1px, #5271ff ;
+  color: #5271ff;
+}
+.my-col{
+  max-width: 500px;
+}
