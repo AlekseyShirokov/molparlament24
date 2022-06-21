@@ -222,5 +222,6 @@ footer
 }
 .col.form
 {
-  max-width: 400px;
+  min-width: 300px;
+  min-height: 300px;
 }
