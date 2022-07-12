@@ -1,13 +1,19 @@
+/*  
+    background-color: 872434; - бордовый
+    background-color: #8C8D8E; - серый
+    background-color: #111C24; - тёмно серый
+*/
+
 body{
-  font-family: 'Forum', cursive;
+  font-family: 'Comfortaa', cursive;
 }
 .Mycolor
 {
-  background-color: #5271ff ;
+  background-color: #872434 ;
 }
 .ImgMycolor_first
 {
-  background-color: gray;
+  background-color: #8C8D8E;
   height: 250pt;
 	overflow: hidden;
 }
@@ -20,12 +26,12 @@ body{
 }
 .DivMycolor
 {
-  background-color: #5271ff ;
+  background-color: 872434 ;
   color:#fff;
 }
 .HMycolor
 {
-  background-color: #5271ff ;
+  background-color: 872434 ;
   color:#fff;
 }
 .H1Mycolor
@@ -35,12 +41,13 @@ body{
 .card
 {
   background-color: #f3f2f0;
-  color:#5271ff ;
+  color:#872434 ;
   height: 500px;
 }
 .card-text
 {
-  color:#000;
+  color:#111C24;
+  line-height: 16px;
 }
 .card-img-top
 {
@@ -50,51 +57,51 @@ body{
 }
 .btn-outline-light
 {
-  background-color: #5271ff ;
+  background-color: #872434 ;
 }
 h1
 {
-  color: #5271ff ;
+  color: #872434 ;
 }
 h2
 {
-  color: #5271ff ;
+  color: #872434 ;
 }
 hr
 {
-  color: #5271ff ;
+  color: #872434 ;
 }
 .page-link
 {
-  background-color: #5271ff ;
+  background-color: #872434 ;
   color: #fff;
 }
 .page-item.disabled .page-link
 {
-  background-color: #5271ff ;
+  background-color: #872434 ;
   color: #fff;
 }
 .page-link:hover {
   z-index: 2;
-  color: #5271ff ;
+  color: #872434 ;
   background-color: #fff;
-  border-color: #5271ff ;
+  border-color: #872434 ;
 }
 .btn-outline-light:hover {
-  color: #5271ff ;
+  color: #872434 ;
   background-color: #fff;
-  border-color: #5271ff ;
+  border-color: #872434 ;
 }
 .carousel-caption
 {
   border-radius: 5px;
-  background-color: #5271ff ;
+  background-color: #872434 ;
 }
 footer
 {
   width: 100%;
   height: 56px;
-  background-color: #5271ff ;
+  background-color: #872434 ;
   color: #fff;
   font-size: 20px;
   padding-top: 10px;
@@ -110,7 +117,7 @@ footer
 }
 .MYcard
 {
-    background-color:#5271ff ;
+    background-color:#872434 ;
     position: relative;
     height: 250px;
     border-radius: 10px;
@@ -137,7 +144,7 @@ footer
 }
 .MY_card
 {
-    background-color:#5271ff ;
+    background-color:#872434 ;
     position: relative;
     height: 300px;
     width: 200px;
@@ -155,17 +162,16 @@ footer
   width: 100%;
   height: 100px;
     padding: 15px;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     position: absolute;
     bottom:0%;
-    background-color: #5272ff81;
+    background-color: #87243481;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: 0;
     line-height: 1;
 	overflow: hidden;
-
 }
 .MY_text:hover{
   height: 300px;
@@ -193,7 +199,7 @@ footer
   border-radius: 10px;
 	object-fit:cover;
   object-position:center;
-  border: #5271ff solid;
+  border: #872434 solid;
 }
 .projects{
   width: 250px;
@@ -205,7 +211,7 @@ footer
   border-radius: 10px;
 	object-fit:cover;
   object-position:top;
-  border: #5271ff solid;
+  border: #872434 solid;
 }
 .intiatives{
   align-items: center;
@@ -221,12 +227,12 @@ footer
   height: 300px;
 }
 .MYbtn{
-  background-color: #5271ff;
+  background-color: #872434;
   color: #fff;
 }
 .MYbtn:hover{
-  border: 1px, #5271ff ;
-  color: #5271ff;
+  border: 1px, #872434 ;
+  color: #872434;
 }
 .my-col{
   max-width: 500px;
