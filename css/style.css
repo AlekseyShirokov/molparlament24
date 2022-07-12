@@ -3,13 +3,32 @@
     background-color: #8C8D8E; - серый
     background-color: #111C24; - тёмно серый
 */
-
+@font-face {
+  font-family: Marmelad;
+  src:   url("/font/Marmelad-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-style: bold;
+}
 body{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Marmelad';
 }
 .Mycolor
 {
   background-color: #872434 ;
+}
+.mainfoto
+{
+  background-image: linear-gradient(to top, transparent 60%, #872434),url(/img/216A9855.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+.maindiv
+{
+  font-size: 30px;
+  font-style: bold;
 }
 .ImgMycolor_first
 {
