@@ -1,5 +1,5 @@
 /*  
-    background-color: 872434; - бордовый
+    background-color: #872434; - бордовый
     background-color: #8C8D8E; - серый
     background-color: #111C24; - тёмно серый
 */
@@ -15,16 +15,176 @@ body{
 }
 .Mycolor
 {
-  background-color: #872434 ;
+  background-color: transparent ;
+}
+.My
+{
+  background-color: #8C8D8E;
+  margin: 5PX;
+}
+.mainfoto_i
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
 }
 .mainfoto
 {
-  background-image: linear-gradient(to top, transparent 60%, #872434),url("../img/216A9855.jpg");
-  background-size: cover;
-  background-position: center;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
+  background-color: #000;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  opacity: 60%;
 }
+.mainfoto1
+{
+  width: 100%;
+  height: 200px;
+  object-fit:contain;
+  object-position: top;
+  position: absolute;
+}
+.prosto
+{
+  width: 100%;
+  height: 50px;
+  background-color: #8C8D8E;
+}
+.pblok
+{
+  width: 300px;
+  height: 80px;
+  background-color: #872434;
+  margin: 20px;
+  padding: 0px;
+  color: #fff;
+}
+.pblok1
+{
+  position: absolute;
+  background-color: #8C8D8E;
+  width: 300px;
+  height: 80px;
+  margin-top: -10px;
+  margin-left: 10px;
+  border: #8C8D8E solid 1px;
+  color: #fff;
+}
+.h1pblok
+{
+  color: #fff;
+  margin: 0;
+  line-height: 80px;
+}
+.h2pblok
+{
+  color: #fff;
+  margin: 0;
+  font-size: 25px;
+  line-height: 50px;
+}
+.foto
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.fpblok
+{
+  width: 300px;
+  height: 300px;
+  background-color: #872434;
+  margin: 20px;
+  padding: 0px;
+  color: #fff;
+}
+.fpblok1
+{
+  position: absolute;
+  background-color: #8C8D8E;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: #8C8D8E solid 1px;
+  color: #fff;
+}
+.npblok
+{
+  width: 500px;
+  height: 350px;
+  background-color: #872434;
+  margin: 20px;
+  padding: 0px;
+  color: #fff;
+}
+.npblok1
+{
+  position: absolute;
+  padding: 15px;
+  background-color: #8C8D8E;
+  width: 500px;
+  height: 300px;
+  border: #8C8D8E solid 1px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .maindiv
 {
   font-size: 25px;
@@ -120,7 +280,7 @@ footer
 {
   width: 100%;
   height: 56px;
-  background-color: #872434 ;
+  background-color: #8C8D8E;
   color: #fff;
   font-size: 20px;
   padding-top: 10px;
