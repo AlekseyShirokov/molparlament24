@@ -4,31 +4,30 @@
     background-color: #111C24; - тёмно серый
 */
 @font-face {
-  font-family: Marmelad;
-  src:   url("../font/Marmelad-Regular.ttf");
+  font-family: Montserrat;
+  src:   url("../font/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-style: bold;
+}
+@font-face {
+  font-family: Montserrat-light;
+  src:   url("../font/Montserrat-ExtraLight.ttf");
   font-weight: normal;
   font-style: normal;
   font-style: bold;
 }
 body{
-  font-family: 'Marmelad';
+  font-family: 'Montserrat';
 }
-.Mycolor
-{
-  background-color: transparent ;
-}
-.My
+/*Меню сайта*/
+.MyBar
 {
   background-color: #8C8D8E;
-  margin: 5PX;
+  margin: 5px;
 }
-.mainfoto_i
-{
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-}
-.mainfoto
+/*Главное фото на сайте*/
+.mainfoto0 
 {
   width: 100%;
   height: 100vh;
@@ -46,13 +45,22 @@ body{
   object-position: top;
   position: absolute;
 }
-.prosto
+/*Черная подлошка*/
+.mainfoto
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+/*Отступ*/
+.otstup
 {
   width: 100%;
   height: 50px;
   background-color: #8C8D8E;
 }
-.pblok
+/*Блок заголовков*/
+.hblok
 {
   width: 300px;
   height: 80px;
@@ -61,7 +69,7 @@ body{
   padding: 0px;
   color: #fff;
 }
-.pblok1
+.hblok1
 {
   position: absolute;
   background-color: #8C8D8E;
@@ -77,14 +85,39 @@ body{
   color: #fff;
   margin: 0;
   line-height: 80px;
+  font-weight: bold;
+  font-size: 45px;
 }
-.h2pblok
+/*Блок новостей на главной странице*/
+.nblok
+{
+  width: 500px;
+  height: 350px;
+  background-color: #872434;
+  margin: 20px;
+  padding: 0px;
+  color: #fff;
+}
+.nblok1
+{
+  position: absolute;
+  padding: 15px;
+  background-color: #8C8D8E;
+  width: 500px;
+  height: 300px;
+  border: #8C8D8E solid 1px;
+  color: #fff;
+  font-family: 'Montserrat-light';
+}
+.h2blok
 {
   color: #fff;
   margin: 0;
   font-size: 25px;
   line-height: 50px;
+  font-weight: normal;
 }
+/*Фото новостей на главной странице*/
 .foto
 {
   width: 100%;
@@ -92,7 +125,7 @@ body{
   object-fit: cover;
   object-position: center;
 }
-.fpblok
+.ftblok
 {
   width: 300px;
   height: 300px;
@@ -101,7 +134,7 @@ body{
   padding: 0px;
   color: #fff;
 }
-.fpblok1
+.ftblok1
 {
   position: absolute;
   background-color: #8C8D8E;
@@ -112,307 +145,129 @@ body{
   border: #8C8D8E solid 1px;
   color: #fff;
 }
-.npblok
+footer
 {
-  width: 500px;
-  height: 350px;
+  width: 100%;
+  height: 44px;
+  background-color: #8C8D8E;
+  color: #fff;
+  padding: 10px;
+}
+/* Карточки состав должности*/
+.mpcard
+{
+  display:table;
+  width: 200px;
+  height: 300px;
+  background-color: #872434;
+  margin: 15px;
+  padding: 0px;
+  color: #fff;
+}
+.mpcard1
+{
+  display:table;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #8C8D8E;
+  padding: 10px;
+}
+.mpcard1 p{
+  display:table-cell!important;
+	vertical-align:middle;
+  font-weight: bold;
+  font-size: 15px;
+}
+.mpcardb2
+{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #000;
+}
+.mpcard2
+{
+  display:table;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 0.8;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.mpcard3
+{
+  display:table;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+.mpcard3 p{
+  padding: 10px;
+  display:table-cell!important;
+	vertical-align:bottom;
+  font-size: 20px;
+}
+/*
+.mpcard
+{
+  width: 200px;
+  height: 300px;
   background-color: #872434;
   margin: 20px;
   padding: 0px;
   color: #fff;
 }
-.npblok1
+.mpcard1
+{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 0.8;
+  bottom:0%;
+  object-fit: cover;
+  object-position: center;
+}
+.mpcard2
+{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #8C8D8E;
+}
+.mppcard2
 {
   position: absolute;
-  padding: 15px;
-  background-color: #8C8D8E;
-  width: 500px;
-  height: 300px;
-  border: #8C8D8E solid 1px;
+  top: 35%;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.maindiv
+.mptcard1
 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.ImgMycolor_first
-{
-  background-color: #8C8D8E;
-  height: 250pt;
-	overflow: hidden;
-}
-.ImgMycolor_first img
-{
-	width: 100%;
-	height: 250pt;
-	object-fit:cover;
-  object-position:center;
-}
-.DivMycolor
-{
-  background-color: 872434 ;
-  color:#fff;
-}
-.HMycolor
-{
-  background-color: 872434 ;
-  color:#fff;
-}
-.H1Mycolor
-{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 10px;
   color: #fff;
-}
-.card
-{
-  background-color: #f3f2f0;
-  color:#872434 ;
-  height: 500px;
-}
-.card-text
-{
-  color:#111C24;
-  line-height: 16px;
-}
-.card-img-top
-{
-  height: 250px;
-  object-fit:cover;
-  object-position:top;
-}
-.btn-outline-light
-{
-  background-color: #872434 ;
-}
-h1
-{
-  color: #872434 ;
-}
-h2
-{
-  color: #872434 ;
-}
-hr
-{
-  color: #872434 ;
-}
-.page-link
-{
-  background-color: #872434 ;
-  color: #fff;
-}
-.page-item.disabled .page-link
-{
-  background-color: #872434 ;
-  color: #fff;
-}
-.page-link:hover {
-  z-index: 2;
-  color: #872434 ;
-  background-color: #fff;
-  border-color: #872434 ;
-}
-.btn-outline-light:hover {
-  color: #872434 ;
-  background-color: #fff;
-  border-color: #872434 ;
-}
-.carousel-caption
-{
-  border-radius: 5px;
-  background-color: #872434 ;
-}
-footer
-{
-  width: 100%;
-  height: 56px;
-  background-color: #8C8D8E;
-  color: #fff;
-  font-size: 20px;
-  padding-top: 10px;
-}
-.card-footer
-{
-  background-color: #f3f2f0;
-  border-top: none;
-}
-.card-body
-{
-  border-bottom: none;
-}
-.MYcard
-{
-    background-color:#872434 ;
-    position: relative;
-    height: 250px;
-    border-radius: 10px;
-}
-.MYcard img
-{
-    width: 100%;
-	height: 100%;
-    border-radius: 5px;
-	object-fit:cover;
-  object-position:top;
-  opacity: 20%;
-
-}
-.MY_card img
-{
-    width: 200px;
-	  height: 300px;
-    border-radius: 10px;
-	object-fit:cover;
-  object-position:top;
-
-
-}
-.MY_card
-{
-    background-color:#872434 ;
-    position: relative;
-    height: 300px;
-    width: 200px;
-    border-radius: 10px;
-}
-.MYtext
-{
-    padding: 15px;
-    color: #fff;
-    position: absolute;
-    bottom:0%;
-}
-.MY_text
-{
-  width: 100%;
-  height: 100px;
-    padding: 15px;
-    font-size: 16px;
-    color: #fff;
-    position: absolute;
-    bottom:0%;
-    background-color: #87243481;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-bottom: 0;
-    line-height: 1;
-	overflow: hidden;
-}
-.MY_text:hover{
-  height: 300px;
-  border-radius: 10px;
-  transition: 1.5s;
-}
-.My {
-  margin-bottom: 0;
-}
-.person{
-  height: auto;
-  width: 100%;
-  /* еще больше контроля с max-width */
-  min-width: 200px;
-  border-radius: 10px;
-}
-.icon{
-  height: auto;
-  width: 100%;
-  max-width: 70px;
-}
-.project{
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-	object-fit:cover;
-  object-position:center;
-  border: #872434 solid;
-}
-.projects{
-  width: 250px;
-  height: 300px;
-}
-.intiative{
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-	object-fit:cover;
-  object-position:top;
-  border: #872434 solid;
-}
-.intiatives{
-  align-items: center;
-  width: 300px;
-  height: 400px;
-}
-.col.cards{
-  min-width: 300px;
-}
-.map{
-  margin-top: 20px;
-  width: 300px;
-  height: 300px;
-}
-.MYbtn{
-  background-color: #872434;
-  color: #fff;
-}
-.MYbtn:hover{
-  border: 1px, #872434 ;
-  color: #872434;
-}
-.my-col{
-  max-width: 500px;
-}
+  padding: 10px;
+  align-content: center;
+}*/
