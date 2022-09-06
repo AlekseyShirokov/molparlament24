@@ -26,6 +26,9 @@ body{
   background-color: #8C8D8E;
   margin: 5px;
 }
+a{
+  text-decoration-line: none;
+}
 /*Главное фото на сайте*/
 .mainfoto0 
 {
@@ -182,45 +185,57 @@ footer
   font-weight: bold;
   font-size: 15px;
 }
-.mpcardb2
-{
-  width: 200px;
-  height: 300px;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
-  background-color: #000;
-}
 .mpcard2
 {
-  display:table;
+  /* display:table; */
   width: 200px;
   height: 300px;
   position: absolute;
   margin-top: 10px;
   margin-left: 10px;
   color: #fff;
-  opacity: 0.8;
   object-fit: cover;
   object-position: center;
-  
+  filter: grayscale(100%); 
 }
-.mpcard3
+.mpcard2:hover{
+  filter: none;
+  transition: 0.5s;
+}
+/* .mpcard3
 {
   display:table;
   width: 200px;
-  height: 300px;
+  height: 100px;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 210px;
   margin-left: 10px;
   color: #fff;
+} */
+.mpcard3 
+{
+  position:relative;
+  margin-top: 230px;
+  margin-left: 10px;
+  bottom: 0%;
+  width: 200px;
+  height: 70px;
+  font-size: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+.mpcard3:hover{
+  margin-top: 10px;
+  height: 290px;
+  transition: 1.5s;
 }
 .mpcard3 p{
+  margin-top: 200px;
   padding: 10px;
   display:table-cell!important;
 	vertical-align:bottom;
   font-size: 20px;
-}
+} 
 /*Персональная страница*/
 .fperson
 {
