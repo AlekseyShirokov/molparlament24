@@ -238,36 +238,123 @@ footer
   font-size: 18px;
 } 
 /*Персональная страница*/
-.fperson
-{
+/*Фото*/
+.fpers{
   min-width: 200px;
-  height: 300px;
-  background-color: #872434;
+  height: 80vh;
+  background-color: #111C24;
+  position: relative;
+  margin: 20px 30px 20px 20px;
 }
-/*ФИО*/
-.hperson{
-  width: 500px;
-  height: 80px;
-  background-color: #872434;
-  margin: 20px;
-  padding: 0px;
-  color: #fff;
-}
-.hperson1
-{
+.fpers1{
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #872434;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.fpers2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: #8C8D8E;
-  width: 500px;
-  height: 80px;
   margin-top: 10px;
   margin-left: 10px;
-  border: #8C8D8E solid 1px;
-  color: #fff;
+  object-fit: cover;
+  object-position: center;
 }
-.hpersonp
+/*  Информация */
+.infopers
 {
+  min-width: 200px;
+  height: auto;
+  background-color: #fff;
+  margin: 20px;
+}
+.infopers1
+{
+  min-width: 200px;
+  background-color: #fff;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+/* Заголовок */
+.hinfopers{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+}
+.hinfopers1{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #872434;
+}
+.hinfopers2{
+  width: 100%;
+  height: 100%;
+  background-color: #8C8D8E;
+  margin-top: 10px;
+  margin-left: 10px;
+  display:table;
+}
+.hinfopers2 p{
+  padding: 10px;
   color: #fff;
-  margin: 0;
-  line-height: 80px;
-  font-size: 30px;
+  text-align: center;
+  display:table-cell!important;
+	vertical-align:middle;
+  font-weight: bold;
+  font-size: 25px;
+} 
+/* Кнопки */
+.bpers{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: #8C8D8E;
+  position: relative;
+  display: table;
+  align-items: center;
+  text-align: center;
+}
+.icon{
+  background-color: #872434;
+  width: 100%;
+  height: auto;
+  display:table-cell!important;
+	vertical-align:middle;
+}
+/* Блоки информации */
+.tpers{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  background-color: #872434;
+  display: table;
+}
+.tpers p{
+  color: #fff;
+  text-align: center;
+  display:table-cell!important;
+	vertical-align:middle;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tpers1{
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #8C8D8E;
+  display: table;
+}
+.tpers1 p{
+  font-size: 15px;
+  padding: 0px;
+  margin-bottom: 20px;
 }
